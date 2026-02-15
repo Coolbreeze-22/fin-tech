@@ -13,8 +13,10 @@ export interface CompleteSignUpData {
   firstName: string;
   lastName: string;
   dateOfBirth: string;
-  address: string;
+  country: string;
   state: string;
+  city: string;
+  address: string;
 }
 
 export interface SignInData {
@@ -100,4 +102,3 @@ export interface TransactionState {
   updateTransaction: (transaction: Transaction) => void;
   setIsLoading: (label: boolean) => void;
 }
-

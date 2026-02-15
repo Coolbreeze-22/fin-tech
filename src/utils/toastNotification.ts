@@ -1,8 +1,8 @@
 import { toast } from "react-toastify";
 
-export const toastNotification = (
-  message: string,
-  type: "success" | "warning" | "error"
+export const notification = (
+  type: "success" | "warning" | "error",
+  message: string
 ) => {
   switch (type) {
     case "success":
